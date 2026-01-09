@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+  /* Backgrounds */
+  --bg-main: #121212;        /* page background */
+  --bg-section: #1c1c1c;     /* cards / sections */
+  --bg-accent: #2a1a12;      /* coffee brown tint */
+
+  /* Text */
+  --text-primary: #f5f5f5;  
+  --text-secondary: #c7bfb8;
+
+  /* Accent colors */
+  --accent-coffee: #c89b6d;  /* latte color */
+  --accent-caramel: #e0a96d;
+  --accent-cream: #f3e9dc;
+
+  /* Buttons */
+  --btn-bg: #c89b6d;
+  --btn-text: #121212;
+  --btn-hover: #e0a96d;
+
+  /* Borders / lines */
+  --border-soft: #3a2a20;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 20vh;
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header > * {
+    flex: 1 1 auto;
+}
+
+#content {
+    height: 80vh;
+    background-color: var(--bg-section);
+    color: var(--text-secondary);
+}
+
+button {
+    color: inherit;
+    background-color: var(--bg-accent);
+    padding: 1rem;
+}
