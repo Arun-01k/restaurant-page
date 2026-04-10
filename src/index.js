@@ -3,6 +3,7 @@ import { loadHome } from "./loadHome";
 import { loadMenu } from "./menu";
 import { loadContact } from "./contact";
 import { initCart } from "./cart";
+import './chatbot';
 
 let currentPage = "home";
 
