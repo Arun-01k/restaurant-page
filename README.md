@@ -1,19 +1,35 @@
 # Le Café Français
+## Live Demo https://arun-01k.github.io/restaurant-page/
 
-A clean, responsive single-page restaurant website built with **vanilla JavaScript**, Webpack, and modular architecture.
+A modern and responsive single-page restaurant website with interactive features.
 
 ## Features
 
-- **Tabbed navigation** (Home, Menu, Contact) with smooth switching
-- **Interactive Menu** with category filters, clickable cards, and modal details
-- **Shopping Cart** with add-to-cart, quantity tracking, and `localStorage` persistence
-- **Working Contact form** with validation and success message
-- Fully responsive design (mobile + desktop)
-- Clean, maintainable code using ES6 modules
+- Clean and responsive design
+- Dynamic tab navigation (Home, Menu, Contact)
+- Interactive menu with category filters and item details modal
+- Functional shopping cart with localStorage persistence
+- Working contact form with validation
+- AI-powered chatbot for customer assistance
 
 ## Tech Stack
 
-- HTML5 / CSS3 (custom properties + vanilla CSS)
-- Vanilla JavaScript (no frameworks)
-- Webpack 5 (dev server + production build)
-- Font Awesome icons
+- HTML5, CSS3
+- Vanilla JavaScript (ES6+)
+- Webpack
+- Google Gemini API (for chatbot)
+
+## How to Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/le-cafe-francais.git
+
+# Navigate to project folder
+cd le-cafe-francais
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
