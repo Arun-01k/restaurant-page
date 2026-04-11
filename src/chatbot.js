@@ -1,8 +1,4 @@
-// ========================
-// FIXED CHATBOT - Correct Model Name
-// ========================
-
-const GEMINI_API_KEY = "AIzaSyBvdfuZgoCF7oOfLW1VzSL8G3ilw420VHI";   // Your key is already here
+const GEMINI_API_KEY = "AIzaSyBhzu5579BLgJMywHaAQb7hCy_pXE7012k";
 
 const chatToggle = document.getElementById('chat-toggle');
 const chatWindow = document.getElementById('chat-window');
@@ -30,7 +26,7 @@ async function sendMessage() {
 
   try {
     const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=AIzaSyBvdfuZgoCF7oOfLW1VzSL8G3ilw420VHI`,
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`,
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
